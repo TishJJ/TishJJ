@@ -39,5 +39,5 @@ Selected work:
 
 ## Connect
 
-- **Web:** [innozate.co](https://innozate.co)
+- **Web:** [innozatesolutions.com](https://innozatesolutions.com)
 - **LinkedIn:** [linkedin.com/in/tishjj](https://linkedin.com/in/tishjj)
