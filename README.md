@@ -8,11 +8,14 @@ That through-line runs across everything I build: CI/CD governance platforms, se
 
 ## What I'm Building
 
-**[SAGE — Secure Adaptive Governance Engine](https://innozate.co)**
+**[SAGE — Secure Adaptive Governance Engine](https://github.com/TishJJ/SAGE)**
 An adaptive governance architecture that moves policy from documents and committees into live engineering systems — sensing risk, enforcing controls, and learning from operational outcomes over time. SAGE governs risk across AI systems, software delivery, telemetry, and runtime behavior.
 
-**[SEVEN — Secure Ecosystem Vulnerability Evaluation Network](https://github.com/TishJJ/tj_portfolio)**
+**[SEVEN — Secure Ecosystem Vulnerability Evaluation Network](https://github.com/TishJJ/SEVEN)**
 The secure software delivery subsystem inside SAGE. SEVEN turns CI/CD execution, SBOMs, vulnerability scanning, policy gates, and audit events into a single deterministic operating model. Built for regulated environments where "it scanned" isn't enough — you need proof of what ran, what it found, and what was done.
+
+**[ConfigAtlas](https://github.com/TishJJ/ConfigAtlas)**
+Mapping the hidden topology and static lineage of declarative configurations. Treats workflow YAML, pipeline definitions, and proxy configs as queryable structural data — not scripts to be read top to bottom — surfacing field lineage, shared dependencies, and topological blast radius before runtime, not after something breaks.
 
 **[hybrid-llm-routing](https://github.com/TishJJ/hybrid-llm-routing)** *(in progress)*
 A neuro-symbolic LLM routing architecture. Symbolic rules handle high-confidence, deterministic queries for token efficiency and predictability. A neural fallback handles ambiguous or complex cases. The design thesis: probabilistic inference should operate within deterministic constraints, not replace them.
@@ -27,7 +30,8 @@ Selected work:
 - [CI/CD Migration & Governance Platform](https://github.com/TishJJ/tj_portfolio/blob/main/portfolio/case-studies/cicd_governance_platform.md) — Hybrid stub workflow architecture powering 200+ repositories with 6 central workflows. 107% deployment increase, 75% complexity reduction, 90% security scan coverage.
 - [Governance Is Not a Gate — It's an Acceleration Layer](https://github.com/TishJJ/tj_portfolio/blob/main/portfolio/case-studies/governance_not_a_gate.md) — Why embedding governance in execution paths eliminates late-stage discovery costs and makes delivery faster, not slower.
 - [Failure Mode Analysis — Thread Pool Exhaustion](https://github.com/TishJJ/tj_portfolio/blob/main/portfolio/labs/thread_pool_exhaustion/failure_mode_analysis.md) — How health checks can lie, why remediation is not resolution, and what SPC-inspired drift detection looks like applied to software reliability.
-- [NYC Yellow Taxi — Distance Outlier Finder](https://github.com/TishJJ/TB_TakeHome) — Full TLC dataset (1.5B+ rows) processed within 4GB RAM using Polars lazy scan and reservoir sampling. 56x improvement over baseline.
+- [DuckDB httpfs → Two-Pass Polars/PyArrow Architecture](https://github.com/TishJJ/tj_portfolio/blob/main/portfolio/adr/adr_duckdb_to_polars.md) — Architecture decision record with explicit AI collaboration disclosure. 56.7x speedup, reservoir error < 0.08% at p90.
+- [NYC Yellow Taxi — Distance Outlier Finder](https://github.com/TishJJ/TB_TakeHome) — Full TLC dataset (1.5B+ rows) processed within 4GB RAM using Polars lazy scan and reservoir sampling.
 
 ---
 
@@ -39,5 +43,5 @@ Selected work:
 
 ## Connect
 
-- **Web:** [innozatesolutions.com](https://innozatesolutions.com)
+- **Web:** [innozatesolutions.com](https://www.innozatesolutions.com)
 - **LinkedIn:** [linkedin.com/in/tishjj](https://linkedin.com/in/tishjj)
